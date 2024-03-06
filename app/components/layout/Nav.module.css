@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+}
+
+.nav_item {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.active {
+  color: rgba(250, 250, 250, 0.5);
+}

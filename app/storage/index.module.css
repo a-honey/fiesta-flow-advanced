@@ -1,0 +1,42 @@
+.container {
+  margin-left: -18px;
+  margin-right: -18px;
+  margin-top: 36px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  gap: 2px;
+}
+.image_container {
+  position: relative;
+  height: 280px;
+}
+
+.chip {
+  position: relative;
+}
+
+.bookmark {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 999;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 0 28px 8px;
+  gap: 11px;
+}
+
+.content_container > h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.content_container > h5 {
+  color: #287cff;
+  font-size: 13px;
+  font-weight: 400;
+}

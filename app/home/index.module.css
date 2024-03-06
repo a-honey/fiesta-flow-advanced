@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.container > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 45px 0 20px 0;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.myFestival {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(250, 250, 250, 0.4);
+}
+
+.speech_balloon_container {
+  position: relative;
+  width: 108px;
+}
+
+.speech_balloon_container > div {
+  position: absolute;
+  width: 108px;
+  top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #287cff;
+}
+
+.imgSliderContainer {
+  position: relative;
+  height: 480px;
+  display: grid;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.cover_container {
+  position: relative;
+}
+
+.curation_title {
+  position: absolute;
+  font-size: 15px;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+  font-weight: 700;
+}

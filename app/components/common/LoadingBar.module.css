@@ -1,0 +1,46 @@
+@keyframes animateLoading {
+  0% {
+    height: 12px;
+    width: 12px;
+    transform: scaleY(0);
+  }
+  50% {
+    height: 20px;
+    width: 12px;
+    transform: scaleY(1);
+  }
+  100% {
+    height: 20px;
+    width: 30px;
+  }
+}
+
+.loadingContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.loadingAnimation {
+  position: absolute;
+  top: 48vh;
+  animation: animateLoading 4s infinite;
+  z-index: 999;
+}
+
+.loadingImage {
+  object-fit: cover;
+}
+
+.loadingText {
+  position: absolute;
+  top: 52vh;
+  z-index: 9999;
+}

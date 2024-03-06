@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item_container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item_container > input {
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  margin-top: 30px;
+}
+
+.item_container > input::placeholder {
+  color: #ffffff;
+}

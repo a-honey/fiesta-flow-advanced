@@ -1,0 +1,29 @@
+.black {
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 30px 20px;
+}
+
+.image_container {
+  position: relative;
+  height: 85vh;
+  width: 25vw;
+  max-width: 200px;
+}
+
+.splash_image {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}

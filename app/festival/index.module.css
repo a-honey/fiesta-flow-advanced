@@ -1,0 +1,40 @@
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.content {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_container > h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+
+.text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+button.start_button {
+  background-color: #0064ff;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}

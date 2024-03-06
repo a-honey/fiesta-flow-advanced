@@ -1,0 +1,32 @@
+.image_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 500px;
+}
+
+.arrow_left {
+  z-index: 999;
+}
+
+.content {
+  margin-top: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_container > h2 {
+  padding: 10px 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.info_container > h4 {
+}

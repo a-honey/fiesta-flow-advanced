@@ -1,0 +1,102 @@
+.icon_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  font-size: 28px;
+  font-weight: 700;
+}
+.answer_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.answer_chip {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 22px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(40, 124, 255, 0.4);
+  border: 1px solid #ffffff;
+}
+
+button.white_active {
+  background-color: white;
+}
+
+.step_bar {
+  position: absolute;
+  top: 100px;
+  left: 105px;
+  right: 105px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.step {
+  background-color: white;
+}
+
+.result_bg {
+  background: url("../assets/confetti.png") center,
+    url("../assets/background_deep_gradation.png") center / cover;
+}
+
+.result_content {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 25px;
+}
+
+.card_bg {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  right: 40px;
+  height: 520px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.festival {
+  margin-bottom: 20px;
+}
+
+.tag {
+  padding: 9px 12px;
+  border-radius: 50px;
+  background-color: rgba(40, 124, 255, 0.3);
+  color: #287cff;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.result_content > h3 {
+  font-size: 28px;
+  color: #287cff;
+  font-weight: 700;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout > a {
+  font-weight: 600;
+}

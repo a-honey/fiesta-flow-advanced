@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container > h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container > button {
+  margin-top: 30px;
+}
+
+.item_container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item_container > input {
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  margin-top: 30px;
+}
+
+.item_container > input::placeholder {
+  color: #ffffff;
+}
+
+.item_container > span {
+  position: absolute;
+  bottom: -25px;
+}
+
+.alert_container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+}
