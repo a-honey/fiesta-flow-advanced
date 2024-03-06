@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
 import "./styles/reset.css";
 import "./styles/globals.css";
+
+import Head from "next/head";
 import Header from "./components/layout/Header";
+import { Inter } from "next/font/google";
 import Nav from "./components/layout/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -50,6 +52,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.png" type="image/png" />
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content="#/favicon.ico" />
+        <meta property="og:url" content="#" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body className={inter.className}>
         <main>
           <Header />
