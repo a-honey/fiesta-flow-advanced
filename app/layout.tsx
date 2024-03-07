@@ -60,6 +60,10 @@ export default function RootLayout({
         <meta property="og:image" content="#/favicon.ico" />
         <meta property="og:url" content="#" />
         <meta property="og:type" content="website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <link rel="manifest" href="/manifest.json"></link>
       </Head>
       <body className={inter.className}>
         <main>
